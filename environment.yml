@@ -5,4 +5,4 @@ dependencies:
   - r-tidyverse
   - r-shinydashboard
   - r-learnr
-#  - r-Lahman
+  - r-Lahman
