@@ -22,26 +22,16 @@ quiz(
     answer("cd"),
     answer("cp", correct = TRUE),
     answer("copyfile"),
-    answer("copy")
+    answer("copy"),
+    random_answer_order = TRUE
   ),
         question("Choose the correct Unix command used for this task - Print the current directory ",
     answer("mv"),
     answer("cd"),
     answer("cp"),
     answer("copyfile"),
-    answer("pwd", correct = TRUE)
-  ),
-  question("Which package contains functions for installing other R packages?",
-    answer("base"),
-    answer("tools"),
-    answer("utils", correct = TRUE),
-    answer("codetools")
-  ),
-  question("Which of the R packages listed below are used to create plots?",
-    answer("lattice", correct = TRUE),
-    answer("tools"),
-    answer("stats"),
-    answer("grid", correct = TRUE)
+    answer("pwd", correct = TRUE),
+    random_answer_order = TRUE
   )
 )
 ```
